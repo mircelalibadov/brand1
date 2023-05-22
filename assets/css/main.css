@@ -1,0 +1,200 @@
+.img .png {
+  display: flex;
+  max-width: 1440x;
+  margin: auto;
+  justify-content: center;
+}
+.img .png img {
+  max-width: 1440px;
+  max-height: 900px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .img .png img {
+    max-width: 768px;
+    width: 100%;
+  }
+}
+
+.press {
+  background-color: #eee;
+}
+.press .contack {
+  max-width: 1440px;
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.press .contack .telephonecontack {
+  display: flex;
+  gap: 10px;
+}
+.press .contack .telephonecontack .message {
+  color: #666666;
+  display: flex;
+  text-decoration: none;
+  gap: 5px;
+}
+.press .contack .telephonecontack .message img {
+  width: 20px;
+  height: 20px;
+}
+.press .contack .telephonecontack .telephone {
+  display: flex;
+  text-decoration: none;
+  gap: 5px;
+}
+.press .contack .telephonecontack .telephone img {
+  width: 20px;
+  height: 20px;
+}
+.press .contack .websitecontack {
+  display: flex;
+  gap: 10px;
+}
+.press .contack .websitecontack .twitter {
+  display: flex;
+  text-decoration: none;
+  gap: 5px;
+  color: #666666;
+}
+.press .contack .websitecontack .twitter img {
+  width: 20px;
+  height: 20px;
+}
+.press .contack .websitecontack .facebook {
+  display: flex;
+  text-decoration: none;
+  gap: 5px;
+  color: #666666;
+}
+.press .contack .websitecontack .facebook img {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 768px) {
+  .press .contack .telephonecontack p {
+    display: none;
+  }
+  .press .contack .websitecontack p {
+    display: none;
+  }
+}
+
+.navbar .brand {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+.navbar .brand .name {
+  font-size: 40px;
+  color: blue;
+}
+.navbar .brand .home ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 15px;
+  display: flex;
+  gap: 20px;
+}
+.navbar .brand .home ul .delete {
+  display: none;
+}
+.navbar .brand .home ul .about {
+  position: relative;
+}
+.navbar .brand .home ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.navbar .brand .home ul .us {
+  width: 200px;
+  border-top: 3px solid yellow;
+  display: none;
+  background-color: white;
+  position: absolute;
+}
+.navbar .brand .home ul .us .More .menu {
+  display: none;
+  position: absolute;
+  width: 200px;
+  border-top: 3px solid yellow;
+  background-color: white;
+}
+.navbar .brand .chose {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .navbar li.about:hover .us {
+    display: block;
+  }
+  .navbar li.about:hover .us li.More:hover .menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar .brand .home {
+    display: none;
+  }
+  .navbar .brand .home ul {
+    padding: 10px;
+    position: relative;
+  }
+  .navbar .brand .home ul .delete {
+    display: block;
+    position: absolute;
+    right: 5px;
+  }
+  .navbar .brand .home ul .remove {
+    transform: rotateZ(90deg);
+  }
+  .navbar .brand .home ul .blog {
+    width: 200px;
+    border-top: 3px solid yellow;
+    display: block;
+    background-color: white;
+    position: absolute;
+  }
+  .navbar .brand .home ul .blog .More .linking {
+    display: block;
+    position: absolute;
+    width: 200px;
+    border-top: 3px solid yellow;
+    background-color: white;
+  }
+  .navbar .brand .chose {
+    display: block;
+  }
+  .navbar .brand .aktiv {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+  }
+  .navbar .brand .aktiv ul {
+    display: block;
+  }
+  .navbar .brand .aktiv ul .us {
+    position: relative;
+  }
+  .navbar .brand .aktiv ul .us .More .menu {
+    position: relative;
+  }
+}
+
+* {
+  margin: 0px;
+}/*# sourceMappingURL=main.css.map */
